@@ -13,3 +13,6 @@ nav:
   - index.md
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-QRXFBQ7G6G
