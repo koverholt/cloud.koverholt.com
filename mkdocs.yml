@@ -1,0 +1,15 @@
+site_name: All Things Cloud
+theme:
+  name: material
+  features:
+    - navigation.sections
+plugins:
+  - meta
+  - blog:
+      blog_dir: .
+  - search
+  - tags
+nav:
+  - index.md
+extra:
+  generator: false
