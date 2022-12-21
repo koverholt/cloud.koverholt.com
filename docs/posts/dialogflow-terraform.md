@@ -24,11 +24,15 @@ their configuration. Terraform to the rescue!
 
 As a result, I used the
 [Terraform modules for Dialogflow CX](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/dialogflow_cx_agent)
-and published some
-[Terraform + Dialogflow scripts](https://github.com/koverholt/dialogflow-cx-terraform)
-so you can spin up Dialogflow CX agents with a single command.
+and published some Terraform + Dialogflow scripts so you can spin up Dialogflow
+CX agents with a single command.
 
 <center><img src="/assets/images/dialogflow-terraform-graph.png" alt="Terraform Graph of Dialogflow CX Agent" width="800px"></center>
+
+Try out the
+[Terraform + Dialogflow scripts](https://github.com/koverholt/dialogflow-cx-terraform)
+and spin up Dialogflow CX agents with a single command in your own Google Cloud
+account!
 
 ## Setup
 
