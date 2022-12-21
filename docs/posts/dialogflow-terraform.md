@@ -34,6 +34,10 @@ in your own Google Cloud account!
 
 [Try out the Terraform + Dialogflow scripts](https://github.com/koverholt/dialogflow-cx-terraform){ .md-button .md-button--primary }
 
+## Video
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/oDaF2EcxNrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Setup
 
 There's a few things that you'll need to set up before you run these Terraform
