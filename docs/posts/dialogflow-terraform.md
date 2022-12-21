@@ -22,17 +22,17 @@ In going through the quickstart steps, I wanted to find a way to codify all of
 the Dialogflow components and settings to quickly spin up agents and change
 their configuration. Terraform to the rescue!
 
-As a result, I used the
-[Terraform modules for Dialogflow CX](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/dialogflow_cx_agent)
-and wrote up some Terraform + Dialogflow scripts to reproduced the agent
-described in the "build a shirt ordering agent" quickstart.
-
 <center><img src="/assets/images/dialogflow-terraform-graph.png" alt="Terraform Graph of Dialogflow CX Agent" width="800px"></center>
 
-Try out the
+I used the
+[Terraform modules for Dialogflow CX](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/dialogflow_cx_agent)
+and wrote up some
 [Terraform + Dialogflow scripts](https://github.com/koverholt/dialogflow-cx-terraform)
-and spin up Dialogflow CX agents with a single command in your own Google Cloud
-account!
+to reproduce the chatbot/agent described in the "build a shirt ordering agent"
+quickstart. Try them out and spin up a Dialogflow CX agent with a single command
+in your own Google Cloud account!
+
+[Try out the Terraform + Dialogflow scripts](https://github.com/koverholt/dialogflow-cx-terraform){ .md-button .md-button--primary }
 
 ## Setup
 
@@ -122,6 +122,8 @@ Take a look at the
 along with the
 [Terraform modules for Dialogflow CX](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/dialogflow_cx_agent)
 so you can spin up your own Dialogflow CX agents with a single command.
+
+[Try out the Terraform + Dialogflow scripts](https://github.com/koverholt/dialogflow-cx-terraform){ .md-button .md-button--primary }
 
 Coming soon, I'll share some best practices for working with Terraform and other
 tools to represent "conversational agents as code", and I'll use these Terraform

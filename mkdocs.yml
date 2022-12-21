@@ -10,6 +10,8 @@ plugins:
   - meta
   - search
   - tags
+markdown_extensions:
+  - attr_list
 nav:
   - index.md
 extra:
