@@ -4,9 +4,10 @@ theme:
   features:
     - navigation.sections
 plugins:
-  - meta
   - blog:
       blog_dir: .
+      post_url_format: "{file}"
+  - meta
   - search
   - tags
 nav:
