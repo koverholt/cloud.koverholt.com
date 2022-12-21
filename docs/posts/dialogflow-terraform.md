@@ -105,14 +105,16 @@ created and managed with Terraform, so you can edit your Terraform scripts to
 change certain parameters, run `terraform` apply, and see your changes instantly
 reflected in the Dialogflow UI.
 
-You might notice that the [`terraform/flows.tf`](https://github.com/koverholt/dialogflow-cx-terraform/blob/main/terraform/flows.tf) file actually uses a `local-exec`
-command to make a REST API call instead of using Terraform to define the flow.
-This approach was used since Dialogflow creates a default flow when the agent is
-created, which Terraform isn't aware of. So, we use a REST API call to PATCH the
-default start flow and then modify messages and routes. This means that we can
-still use Terraform to templatize and trigger the REST API command, but the
-specific transition routes within the flow are not known or managed directly by
-Terraform.
+You might notice that the
+[`terraform/flows.tf`](https://github.com/koverholt/dialogflow-cx-terraform/blob/main/terraform/flows.tf)
+file actually uses a `local-exec` command to make a REST API call instead of
+using Terraform to define the flow. This approach was used since Dialogflow
+creates a default start flow when the agent is created, so Terraform isn't
+explicitly aware of the default start flow. Therefore, we use a REST API call to
+PATCH the default start flow and then modify its messages and routes. As a
+result, we can still use Terraform to templatize and trigger the REST API
+command, but the specific transition routes within the flow are not known or
+managed directly by Terraform.
 
 ## Summary
 
