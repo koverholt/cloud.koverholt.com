@@ -105,7 +105,7 @@ created and managed with Terraform, so you can edit your Terraform scripts to
 change certain parameters, run `terraform` apply, and see your changes instantly
 reflected in the Dialogflow UI.
 
-You might notice that the `terraform/flows.tf` file actually uses a `local-exec`
+You might notice that the [`terraform/flows.tf`](https://github.com/koverholt/dialogflow-cx-terraform/blob/main/terraform/flows.tf) file actually uses a `local-exec`
 command to make a REST API call instead of using Terraform to define the flow.
 This approach was used since Dialogflow creates a default flow when the agent is
 created, which Terraform isn't aware of. So, we use a REST API call to PATCH the
