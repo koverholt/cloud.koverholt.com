@@ -1,12 +1,14 @@
 site_name: All Things Cloud
 theme:
   name: material
+  custom_dir: custom/
   features:
     - navigation.sections
 plugins:
   - blog:
       blog_dir: .
       post_url_format: "{file}"
+      archive: false
   - meta
   - search
   - tags

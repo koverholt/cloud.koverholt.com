@@ -3,7 +3,7 @@ draft: false
 date: 2022-12-07
 ---
 
-# Intro
+# Introduction
 
 I am a Developer Advocate at Google and I work with machine learning and data
 science tools. Here, I'll be posting tips and information about various data
