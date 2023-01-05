@@ -7,7 +7,7 @@ theme:
 plugins:
   - blog:
       blog_dir: .
-      post_url_format: "{file}"
+      post_url_format: "{slug}"
       archive: false
   - meta
   - search
