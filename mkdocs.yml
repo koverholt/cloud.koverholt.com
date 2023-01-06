@@ -13,7 +13,10 @@ plugins:
   - search
   - tags
 markdown_extensions:
+  - admonition
   - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
 nav:
   - index.md
 extra:
