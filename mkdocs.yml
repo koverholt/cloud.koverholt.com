@@ -19,6 +19,7 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - index.md
+  - koverholt.com: https://koverholt.com
 extra:
   generator: false
   analytics:
